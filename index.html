@@ -26,6 +26,10 @@
      font-size: 18px;
   }
   
+  header {
+    text-align: center;    
+  }
+  
   navbar {
     float: right;
     font-size: 18px;
@@ -42,7 +46,7 @@
 .dropdown_content1 {
     display: none;
     position: relative;
-    background-color: #2F2F2F;
+    background-color: #26202D;
     margin: 0 auto;
     max-width: 700px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -57,22 +61,25 @@
   .dropdown_content2 {
     display: none;
     position: relative;
-    background-color: #2F2F2F;
+    background-color: #26202D;
     margin: 0 auto;
     max-width: 700px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 4px 10px;
     border-radius: 3px;
-    transition-duration: display 1s;
-    -webkit-transition-duration: display 1s;
-    -moz-transition-duration: display 1s;
-    -o-transition-duration: display 1s;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
   }
   
    .dropdown1 {
-     display: block; }
+     display: block;
+     margin: 0 auto;}
+ 
   .dropdown2 {
-    display: block;}
+    display: block;
+    margin: 0 auto;}
   
   
   .dropdown1:hover .dropdown_content1 {
@@ -103,6 +110,7 @@
 </style>
  </head>
  <body>
+   <header>
    <div class= "navbar"> 
     
      <p> <div class= "dropdown1"> <h2> sources </h2>
@@ -121,6 +129,7 @@
      </div>
    
      </div> 
+   </header>
 
    <div class= "disclaimer"> <p> *note: this site is a student project and not meant to diagnose,
      treat, or offer any professional resources for any mental health issues. 
