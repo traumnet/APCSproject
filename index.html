@@ -27,6 +27,7 @@
   }
   
   navbar {
+    float: left;
     color: #EAFFFA;
     font-size: 18px;
     display: block;
@@ -37,25 +38,52 @@
     padding: 4px 10px;
     border-radius: 3px;}
   
-
+.dropdown_content1 {
+    display: none;
+    position: relative;
+    background-color: rgba(25,0,0,.5);
+    max-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 4px 10px;
+    border-radius: 3px;
+}
   
-
-  infosection {
-    
-  } 
+  .dropdown_content2 {
+    display: none;
+    position: relative;
+    background-color: rgba(25,0,0,.5);
+    max-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 4px 10px;
+    border-radius: 3px;
+  }
+  
+   .dropdown1:hover .dropdown_content1 {
+  position: relative;
+  display: block;
+  left: 2px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+  transition:0.5s;
+   -webkit-transition:0.5s;
+   -moz-transition:0.5s;
+   -o-transition:0.5s;
+}
+  
+ 
   
   
 </style>
  </head>
  <body>
    <div class= "navbar"> 
-     <p> <div class= "dropdown_content1"> <h2> sources </h2> </div> 
-     <div class= "dropdown_content2"> <h2> </h2> <div>
+    
+     <p> <div class= "dropdown1"> <h2> sources </h2> <div class= "dropdown_content1" > add details here allen </div> </div> 
+     <div class= "dropdown2"> <h2> about </h2> <div class= "dropdown_content2"> 
+      <h1> <i> about; </i> </h1> <p> This is a student project aiming to educate high school students about mental health 
+     and end stigma around various mental illnesses. </p>  </div> <div>
    
    </div> 
-   <div class= "infosection"> <div class= "aboutsection"> 
-     <h1> <i> about; </i> </h1> <p> This is a student project aiming to educate high school students about mental health 
-     and end stigma around various mental illnesses. </p> </div> </div>
+
    <div class= "disclaimer"> <p> *note: this site is a student project and not meant to diagnose,
      treat, or offer any professional resources for any mental health issues. 
      If you are worried about your own mental health or someone else's please contact 
